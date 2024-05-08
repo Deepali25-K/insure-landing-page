@@ -13,7 +13,7 @@
 </head>
 <body class="bg-[#fafafa] min-h-screen font-[1rem]">
 
-  <header class="bg-[] flex justify-between items-center px-6 py-6">
+  <header class="bg-[] flex justify-between items-center px-6 py-6 min-[850px]:px-[4rem]">
 		<!-- logo	-->
 		<img src="https://raw.githubusercontent.com/Deepali25-K/insure-landing-page/main/images/logo.svg" class="h-[18px]" alt="insure-logo">
 		<!-- hamburger menu	-->
@@ -23,21 +23,110 @@
 	</header>
 
 	<main class="flex flex-col items-center">
-
-		<div class="w-full h-[451px]">
-			<img src="https://github.com/Deepali25-K/insure-landing-page/blob/main/images/image-intro-mobile.jpg?raw=true" class="w-full h-full" alt="">
+		<!-- hero-image	-->
+		<div class="bg-[#2d2640] w-[100%] min-[660px]:absolute min-[660px]:w-[18rem] min-[660px]:top-[10rem] min-[530px]:right-[5%] flex justify-center items-center min-[480px]:pt-[1.5rem] min-[850px]:right-[7%]">
+			<img src="https://github.com/Deepali25-K/insure-landing-page/blob/main/images/image-intro-desktop.jpg?raw=true" class="w-[30rem]" alt="">
 		</div>
 
-		<section class="bg-[#2d2640] text-center px-[1rem] py-[2rem]">
-			<h1 class="text-[#fafafa] text-[2rem]">Humanizing your insurance.</h1>
-			<p class="text-[#fafafa]">Get your life insurance coverage easier and faster. We blend our expertise
+		<!-- hero content	-->
+		<section class="bg-[#2d2640] text-center px-[1.6rem] py-[5rem] min-[660px]:text-left min-[850px]:pl-[4rem]">
+			<h1 class="text-[#fafafa] text-[2.85rem] leading-[3rem] min-[660px]:w-[50%] min-[660px]:text-[1.8rem] min-[660px]:leading-[2.2rem]">Humanizing your insurance.</h1>
+			<p class="text-[#fafafa] mt-[1rem] mb-[2rem] min-[660px]:w-[50%] min-[660px]:text-[1rem]">Get your life insurance coverage easier and faster. We blend our expertise
 				and technology to help you find the plan that’s right for you. Ensure you
 				and your loved ones are protected.</p>
+			<button class="bg-transparent border-2 border-[#fafafa] text-[#fafafa] tracking-2 py-2 px-4 inline-flex items-center justify-center hover:bg-white hover:text-gray-800 uppercase">View Plans</button>
+		</section>
+
+		<!-- Selling Point Section	-->
+		<section class="flex flex-col items-center text-center my-[6rem] min-[1070px]:text-left">
+			<hr class="border-b border-[#a7a2a9] my-6 w-[8rem]">
+			<h2 class="text-[2.85rem] mb-[4rem]">We're different</h2>
+			<div class="flex flex-col gap-[4rem] min-[700px]:flex-row min-[700px]:flex-wrap min-[700px]:gap-x-[1rem] min-[700px]:justify-center min-[700px]:">
+				<div class="flex flex-col items-center min-[1070px]:items-start min-[700px]:pl-[1.6rem]">
+					<img src="https://raw.githubusercontent.com/Deepali25-K/insure-landing-page/main/images/icon-snappy-process.svg" alt="thunderbolt-icon" class="w-[5rem]">
+					<h2 class="text-[1.5rem] text-[#2d2640] mt-[2rem] mb-[1rem]">Snappy Process</h2>
+					<p class="text-[#837d87] px-[1.6rem] min-[500px]:w-[75%] min-[700px]:w-[20rem] min-[700px]:px-0">Our application process can be completed in minutes, not hours. Don’t get
+						stuck filling in tedious forms.</p>
+				</div>
+				<div class="flex flex-col items-center min-[1070px]:items-start min-[700px]:px-[]">
+					<img src="https://raw.githubusercontent.com/Deepali25-K/insure-landing-page/main/images/icon-affordable-prices.svg" alt="dollar-icon" class="w-[5rem]">
+					<h2 class="text-[1.5rem] text-[#2d2640] mt-[2rem] mb-[1rem]">Affordable Prices</h2>
+					<p class="text-[#837d87] px-[1.6rem] min-[500px]:w-[75%] min-[700px]:w-[20rem] min-[700px]:px-0">We don’t want you worrying about high monthly costs. Our prices may be low,
+						but we still offer the best coverage possible.</p>
+				</div>
+				<div class="flex flex-col items-center min-[1070px]:items-start min-[700px]:px-[1.6rem]">
+					<img src="https://raw.githubusercontent.com/Deepali25-K/insure-landing-page/main/images/icon-people-first.svg" alt="person-icon" class="w-[5rem]">
+					<h2 class="text-[1.5rem] text-[#2d2640] mt-[2rem] mb-[1rem]">People First</h2>
+					<p class="text-[#837d87] px-[1.6rem] min-[500px]:w-[75%] min-[700px]:w-[20rem] min-[700px]:px-0">Our plans aren’t full of conditions and clauses to prevent payouts. We make
+						sure you’re covered when you need it.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- How We Work Section -->
+		<section class="bg-[#2d2640] text-center px-[1.6rem] py-[5rem] mx-[1.4rem] mb-[6rem] min-[1000px]:flex min-[557px]:px-[2rem]">
+			<h2 class="text-[#fafafa] text-[2.6rem] leading-[3rem] mb-[2rem]">Find out more about how we work</h2>
+			<button class="bg-transparent border-2 border-[#fafafa] text-[#fafafa] tracking-2 py-2 px-4 inline-flex items-center justify-center hover:bg-white hover:text-gray-800 uppercase">How We Work</button>
 		</section>
 
 	</main>
 
-	<footer></footer>
+	<footer class="flex flex-col items-center min-[500px]:mx-[2rem] min-[850px]:px-[4rem]">
+
+		<!-- Logo & Social Media Icons -->
+		<div class="flex flex-col items-center bg-[] p-4 min-[500px]:flex-row min-[500px]:w-[100%] min-[500px]:justify-between ">
+			<img src="https://raw.githubusercontent.com/Deepali25-K/insure-landing-page/main/images/logo.svg" alt="logo" class="w-[7rem]">
+			<div class="flex items-center justify-center gap-[1rem] my-[2rem]">
+				<img src="https://raw.githubusercontent.com/Deepali25-K/insure-landing-page/main/images/icon-facebook.svg" alt="facebook-icon" class="">
+				<img src="https://raw.githubusercontent.com/Deepali25-K/insure-landing-page/main/images/icon-twitter.svg" alt="twitter-icon" class="">
+				<img src="https://raw.githubusercontent.com/Deepali25-K/insure-landing-page/main/images/icon-pinterest.svg" alt="pinterest-icon" class="">
+				<img src="https://raw.githubusercontent.com/Deepali25-K/insure-landing-page/main/images/icon-instagram.svg" alt="instagram-icon" class="">
+			</div>
+		</div>
+
+		<hr class="border-b border-[#a7a2a9] my-6 w-[8rem] min-[1000px]:w-[100%] min-[1000px]:my-2">
+
+		<div class="flex flex-col items-center uppercase mb-[4rem] min-[500px]:flex-row min-[500px]:items-start min-[500px]:flex-wrap min-[500px]:gap-x-[4.5rem] min-[500px]:justify-center min-[500px]:mt-[4rem] min-[504px]:mt-justify-start min-[850px]:gap-x-[6.5rem] min-[1000px]:mt-[2rem]">
+			<div class="text-[0.9rem] my-[2.5rem] min-[500px]:mt-0">
+				<h3 class="text-[#837d87] mb-[1.4rem]">Our Company</h3>
+				<ul class="text-center min-[500px]:text-left text-[#2d2640]">
+					<li class="mb-[0.5rem]"><a href="#">How we work</a></li>
+					<li class="mb-[0.5rem]"><a href="#">Why Insure?</a></li>
+					<li class="mb-[0.5rem]"><a href="#">View plans</a></li>
+					<li><a href="#">Reviews</a></li>
+				</ul>
+			</div>
+
+			<div class="text-[0.9rem]">
+				<h3 class="text-center min-[500px]:text-left text-[#837d87] mb-[1.4rem]">Help me</h3>
+				<ul class="text-center min-[500px]:text-left text-[#2d2640]">
+					<li class="mb-[0.5rem]"><a href="#">FAQ</a></li>
+					<li class="mb-[0.5rem]"><a href="#">Terms of use</a></li>
+					<li class="mb-[0.5rem]"><a href="#">Privacy policy</a></li>
+					<li><a href="#">Cookies</a></li>
+				</ul>
+			</div>
+
+			<div class="text-[0.9rem] mt-[2.5rem] min-[500px]:mt-0">
+				<h3 class="text-[#837d87] text-center mb-[1.4rem] min-[500px]:mt-0">Contact</h3>
+				<ul class="text-center min-[500px]:text-left text-[#2d2640]">
+					<li class="mb-[0.5rem]"><a href="#">Sales</a></li>
+					<li class="mb-[0.5rem]"><a href="#">Support</a></li>
+					<li><a href="#">Live chat</a></li>
+				</ul>
+			</div>
+
+			<div class="text-[0.9rem] my-[2.5rem] min-[500px]:mt-0">
+				<h3 class="text-[#837d87] text-center mb-[1.4rem] min-[500px]:text-left">Others</h3>
+				<ul class="text-center min-[500px]:text-left text-[#2d2640]">
+					<li class="mb-[0.5rem]"><a href="#">Careers</a></li>
+					<li class="mb-[0.5rem]"><a href="#">Press</a></li>
+					<li><a href="#">Licenses</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</footer>
 
   <!-- How we work
   Blog
